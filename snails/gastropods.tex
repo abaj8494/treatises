@@ -1,24 +1,29 @@
 \documentclass[twoside]{article}
 
 \usepackage{fancyhdr}
+\usepackage{parskip}
 \usepackage{geometry}
 \usepackage{chemfig}
 \usepackage{amsmath}
 \usepackage{pgfplots}
 \usepackage{rotating}
 \usepackage{multicol}
+\usepackage[style=long3col]{glossaries}
 \usepackage{tikz}
+\usepackage{setspace}
+\usepackage{hyperref}
 \usetikzlibrary{arrows,positioning,shapes.geometric}
 \usepgfplotslibrary{polar}
 
 \geometry{
     top=20mm,
-    bottom=30mm,
+    bottom=40mm,
     left=20mm,
     right=20mm
 }
 
 \pagestyle{fancy}
+\fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[LO]{
     \begin{turn}{180}
@@ -35,10 +40,50 @@
     \end{turn}
 }
 
+\fancyfoot[RE]{
+    \includegraphics[width=2cm]{img/qr.png}
+}
+\fancyfoot[CE,CO]{\thepage}
+
 
 \title{\underline{A treatise on non-aquatic gastropod Mollusca, a.k.a. \emph{snails}}}
 \author{Aayush Bajaj}
 \date{\today}
+
+\makenoidxglossaries
+\setlength{\glsdescwidth}{0.8\textwidth}
+%\renewcommand*{\glsgroupskip}{}
+
+\newglossaryentry{animal}{
+    name = {animal},
+    sort = {animal},
+    description = {Any living thing that is not a plant (basically)}
+}
+\newglossaryentry{taxonomy}{
+    name = {taxonomy},
+    sort = {taxonomy},
+    description = {The branch of science concerned with classification of living things}
+}
+\newglossaryentry{phylum}{
+    name = {phylum},
+    sort = {phylum},
+    description = {A level of taxonomic rank}
+}
+\newglossaryentry{herbivore}{
+    name = {herbivore},
+    sort = {herbivore},
+    description = {An animal that feeds on plants}
+}
+\newglossaryentry{omnivore}{
+    name = {omnivore},
+    sort = {omnivore},
+    description = {An animal that eats \emph{both} plants and animals}
+}
+\newglossaryentry{carnivore}{
+    name = {carnivore},
+    sort = {carnivore},
+    description = {An animal that feeds on other animals}
+}
 
 \begin{document}
 
@@ -57,17 +102,12 @@
     \end{minipage}
     \end{flushright}
 
-    Snails are defined as gastropods that have a shell. Gastropods are a \underline{class} of invertebrates which include slugs, squids, octupuses \emph{and} snails. These gastropods belong to a \textbf{larger} \underline{phylum} of animals called \emph{Mollusca}.
+    Snails are defined as gastropods that have a shell. Gastropods are a \underline{class} of invertebrates which include slugs, squids, octupuses and snails. These gastropods belong to a \textbf{larger} \underline{\gls{phylum}} of \gls{animal}s called \emph{Mollusca}.
 
 \section*{Classifications}
-    The gastropod class includes both aquatic and non-aquatic snails and are the most diverse class of \emph{Molluscs}, residing in \textbf{every} marine environment from high-energy surge zones to ocean floorbeds.
+    The gastropod class is the most diverse within the \emph{Molluscs} phylum. Across their aquatic and non-aquatic families gastropods occupy \textbf{every} marine environment from high-energy surge zones to ocean floorbeds.
 
-    Restricting our study to \emph{non-aquatic} gastropods brings us to 2 particular \underline{families}; the \textbf{prosobranchia} and the \textbf{pulmonata}.
-
-    \subsection*{Prosobranchia}
-        
-    \subsection*{Pulmonata}
-
+    Restricting our study to \emph{non-aquatic} gastropods will mean that we encounter almost exclusively the \textbf{prosobranchia} and \textbf{pulmonata} \underline{families}. Interestingly, the pulmonata gastropods respire using lungs whilst the prosobranchia use \emph{gills}. (yes, you can use gills on land as long as they are kept \emph{moist}.)\\
 
     \begin{tikzpicture}[>=latex']
     \centering
@@ -89,20 +129,39 @@
                     (kingdom) edge (domain)
                     (domain) edge (life)
                     ;
-        \node [below=1cm, align=flush center,text width=8cm] at (phylum) { Figure 1: Hierarchy of taxonomic ranks };
+        \node [below=1cm, align=flush center,text width=8cm] at (class) { Figure 1: Hierarchy of taxonomic ranks };
     \end{tikzpicture}
 
 \section*{Habitat}
+Shelled gastropods can afford to live in more exposed areas than their non-shelled cousins. Gastropods generally prefer to live in damp or wet environments, with the shelled variants preferring forests, wetlands and gardens.
+
+
     
 \section*{Behaviours}
+    Most snails are \gls{herbivore}s, whilst some are \gls{omnivore}s and few are predatory \gls{carnivore}s. The herbivores use their thousands of microscopic pseudo-teeth to file through plants and algae, ripping food into small pieces. Snails eat at night, and some hibernate through the entirety of winter. Snails can hibernate for up to 3 years. They usually live for 2 - 3 years, but some can live for 10.
+
 
 \newpage
+\newgeometry{top=20mm,bottom=25mm,left=20mm,right=20mm}
 
 \begin{multicols}{2}
 
     \begin{minipage}{0.4\textwidth}
     \section*{Facts}
-        Snails are hermaphrodites, they all have pp
+        \begin{itemize}
+            \item Snails are hermaphrodites, they all have pp.
+            \item The field of \gls{taxonomy} evolves quickly. Organisms classified as being one type are often later realised to be a subset of another type or dissimilar to the class they were initially categorised in.
+            \item The largest land snails grow to 1kg and 38cm in length whilst the largest sea snails can reach 18kg and 90cm in length!
+            \item Some snails eat other snails.
+            \item Gastropods do not possess the sense of hearing!
+            \item Most \emph{terrestrial} (land) snails have shells that are right-handed in their coiling.
+            \item During hibernation a snail will seal its shell shut with mucus to stay \emph{moist}.
+            \item There is a \underline{genus} of pond snails called \emph{Lymnaea} which only make decisions using two types of neurons: one which decides if it's hungry, and the other deciding if there is food nearby.
+        \end{itemize}
+        \begin{center}
+            \includegraphics[width=0.3\textwidth]{img/vege.png}\\
+            Figure 2: the Lymnaea snail.
+        \end{center}
     \end{minipage}
 
     \begin{flushleft}
@@ -115,15 +174,15 @@
         On
 
         \begin{center}
-            \begin{tikzpicture}
+            \begin{tikzpicture}[scale = .7]
                 \node[inner sep=0pt] (snail) at (0,0)
                     {\includegraphics[width=.5\textwidth]{img/snail.png}};
-                \node[inner sep=0pt] (spiral) at (-1.3,-1.6) {
+                \node[inner sep=0pt] (spiral) at (-1.9,-2.3) {
                     \begin{polaraxis}[axis lines=none, scale = .4]
                         \addplot[domain=0:1260, samples=1000, line width = 1mm]{e^0.1*x};
                     \end{polaraxis}
                     };
-                    \node [below=1cm, align=flush center,text width=8cm] at (spiral) { Figure 2: Jamiroquai };
+                    \node [below=1cm, align=flush center,text width=8cm] at (spiral) { Figure 3: Jamiroquai };
             \end{tikzpicture}
         \end{center}
 
@@ -141,22 +200,16 @@
 
 \end{multicols}
 
-\section*{Glossary}
-Phylum
-Herbivore, Omnivore, Carnivore
-\section*{References}
+\setlength{\parskip}{0pt}
 
+\printnoidxglossary[style=listdotted]
 
+\begin{thebibliography}{8}
+    \bibitem{bj1} Brian. J. Smith, \emph{Identification keys to the families and genera of bivalve and gastropod molluscs found in Australian inland waters}, 1996
+    \bibitem{bj2} Brian. J. Smith, \emph{Non-marine Mollusca}, 1992
+    \bibitem{wiki} Wikipedia, \emph{Online: \url{https://en.wikipedia.org/wiki/Snail}}
 
-Snails are defined as gastropods that have a shell. 
+\end{thebibliography}
 
-This shall be a fun exercise. I will need to learn how to produce a tree diagram in \LaTeX{} as well as a TikZ picture of a golden spiral overlaid atop a snail (at the very least).
-
-To accomplish the latter I shall leverage the arc length of a curve as \(\theta_1 \rightarrow \infty\) for \(l\), where
-
-
-Then for a given curve such as \(r = e^\frac{\theta}{10}\):
-
-The length of the arc is:
 
 \end{document}
