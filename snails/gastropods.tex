@@ -7,6 +7,9 @@
 \usepackage{pgfplots}
 \usepackage{rotating}
 \usepackage{multicol}
+\usepackage{tikz}
+\usepackage{multicol}
+\usetikzlibrary{arrows,positioning,shapes.geometric}
 \usepgfplotslibrary{polar}
 
 \geometry{
@@ -51,18 +54,106 @@
 
 \section*{Definitions}
 
-\begin{flushright}
-\begin{minipage}{8cm}
-    \begin{flushleft} \emph{If you wish to converse with me define your terms.} \end{flushleft}
-    \begin{flushright}--- Voltaire\end{flushright}
-\end{minipage}
-\end{flushright}
+    \begin{flushright}
+    \begin{minipage}{8cm}
+        \begin{flushleft} \emph{If you wish to converse with me define your terms.} \end{flushleft}
+        \begin{flushright}--- Voltaire\end{flushright}
+    \end{minipage}
+    \end{flushright}
+
+    Snails are defined as gastropods that have a shell. Gastropods are a \underline{class} of invertebrates which include slugs, squids, octupuses \emph{and} snails. These gastropods belong to a \textbf{larger} \underline{phylum} of animals called \emph{Mollusca}.
 
 \section*{Classifications}
+
+    The gastropod class includes both aquatic and non-aquatic snails and are the most diverse class of \emph{Molluscs}, residing in \textbf{every} marine environment from high-energy surge zones to ocean floorbeds.
+
+    Restricting our study to \emph{non-aquatic} gastropods brings us to 2 particular \underline{families}; the \textbf{prosobranchia} and the \textbf{pulmonata}.
+
+    \subsection*{Prosobranchia}
+        
+    \subsection*{Pulmonata}
+
+
+    \begin{tikzpicture}[>=latex']
+        \tikzset{block/.style= {draw, rectangle, align=center,minimum width=2cm,minimum height=1cm},
+        rblock/.style={draw, shape=rectangle,rounded corners=1.5em,align=center,minimum width=2cm,minimum height=1cm},
+        input/.style={ % requires library shapes.geometric
+        draw,
+        trapezium,
+        trapezium left angle=60,
+        trapezium right angle=120,
+        minimum width=2cm,
+        align=center,
+        minimum height=1cm
+    },
+        }
+        \node [block]  (start) {Species};
+        \node [block, right =1cm of start] (acquire) {Genus};
+        \node [block, right =1cm of acquire] (rgb2gray) {Family};
+        \node [block, right =1cm of rgb2gray] (otsu) {Class};
+        \node [block, right =1cm of otsu] (gchannel) {Phylum};
+        \node [block, right =1cm of gchannel] (closing) {Kingdom};
+        \node [block, right =1cm of closing] (NN) {Domain};
+        \node [input, right =1cm of NN] (limit) {Life};
+        \node [coordinate, below right =1cm and 1cm of otsu] (right) {};  %% Coordinate on right and middle
+        \node [coordinate,above left =1cm and 1cm of gchannel] (left) {};  %% Coordinate on left and middle
+
+%% paths
+        \path[draw,->] (start) edge (acquire)
+                    (acquire) edge (rgb2gray)
+                    (rgb2gray) edge (otsu)
+                    (otsu.east) -| (right) -- (left) |- (gchannel)
+                    (gchannel) edge (closing)
+                    (closing) edge (NN)
+                    (NN) edge (limit)
+                    ;
+    \end{tikzpicture}
+
 \section*{Habitat}
+    
 \section*{Behaviours}
-\section*{Mathematics}
+
+\newpage
+
+\begin{multicols}{2}
+
+    \begin{minipage}{0.4\textwidth}
+    \section*{Facts}
+        Snails are hermaphrodites, they all have pp
+    \end{minipage}
+
+    \begin{flushleft}
+    \begin{minipage}{0.5\textwidth}
+    \section*{Mathematics}
+
+        \def\spiral#1{%
+          \pgfmathparse{int(#1)}%
+          \ifnum\pgfmathresult>0
+            \begin{scope}[shift={(1,1)}, rotate=90, scale=1/1.6180339887]
+              \spiral{#1-1}
+            \end{scope}
+            \draw [black] (0,0) arc (270:360:1);
+          \fi
+        }
+
+        Let us briefly consider the length of an ordinary garden snail's shell.
+        Approximating the shell to abide by the natural shape of the \emph{Golden Spiral} we may then use \[ l = \int^{\theta_1}_{\theta_0} \sqrt{[f(\theta)]^2 + [f'(\theta)]^2} \, \mathrm{d}\theta .\]
+        
+
+        \begin{turn}{90}
+        \tikz[scale=3]{\spiral{50}}
+        \end{turn}
+
+
+        \includegraphics[width=\textwidth]{img/snail.png}
+    \end{minipage}
+    \end{flushleft}
+
+\end{multicols}
+
 \section*{Glossary}
+Phylum
+Herbivore, Omnivore, Carnivore
 \section*{References}
 
 
@@ -73,7 +164,6 @@ This shall be a fun exercise. I will need to learn how to produce a tree diagram
 
 To accomplish the latter I shall leverage the arc length of a curve as \(\theta_1 \rightarrow \infty\) for \(l\), where
 
-\[ l = \int^{\theta_1}_{\theta_0} \sqrt{[f(\theta)]^2 + [f'(\theta)]^2} \mathrm{d}\theta\]
 
 Then for a given curve such as \(r = e^\frac{\theta}{10}\):
 \begin{center} % you could probably tell tikz to center?
