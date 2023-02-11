@@ -13,6 +13,14 @@
 \usepackage{background}
 \usepackage{wrapfig}
 \usepackage{rotating}
+\usepackage{fontspec}
+
+\newfontfamily\greekfont[Scale=MatchUppercase,Ligatures=TeX]{Kerkis}
+
+\newcommand{\textgreek}[1]
+    {\bgroup\greekfont{#1}\egroup} % Greek text
+
+
 
 % configurations
 \usetikzlibrary{arrows,positioning,shapes.geometric}
@@ -23,7 +31,7 @@
 
 % title
 \title{\underline{A treatise on Felis Catus, a.k.a \emph{the domestic Cat}}}
-\author{Aayush Baj[aj]}
+\author{Aayush Baj\textbf{aj}}
 
 \backgroundsetup{placement = top, hshift=11cm, vshift=-11cm, scale = 0.4, contents ={\ifnum\value{page}=1 \includegraphics[width=0.5\textwidth]{img/title-cat.png}\else \fi}}
 % document
@@ -86,7 +94,7 @@ Fast forward about 9,000 years now to Mesopotomia in the Fertile Crescent; agric
 
 The Egyptians kept cats not only as pets, but also believed they were divine creatures of religious significance.\\
 
-Then, as if this deification was not enough, cats attain their second social promotion through political affiliation with \emph{TODO} and cats have become imbued within the culture and society of Ancient Egypt.
+Then, as if this deification was not enough, cats attain their second social promotion through political affiliation with Pharaoh Sheshonq I and thus cats became entirely imbued within the culture and society of Ancient Egypt.
 
 \subsection*{Spread}
 
@@ -149,6 +157,9 @@ These \gls{felid}s are predators. They prefer to kill animals smaller than thems
     \includegraphics[width=0.35\textwidth]{img/cat-skull.png}
     \caption{\emph{Felis Catus} skull}
 \end{wrapfigure}
+
+\fancyfoot[R]{\small $^\dagger$ see \emph{The Spectral Sensitivity Of Dark-adapted Cats} \\--- Ralph Gunter}
+
 Next we have the teeth, of which there are 30. 12 less than a dog, and 2 less than a human. The reason for this is that their skulls are rather small and so cannot fit a large number of teeth. This however is a double-edged sword as it is this very structure that enables the \emph{Felidae} to deliver the greatest force to size ratio of any other carnivore. Additionally, their jaw joint is different to ours - positioned slightly higher such that their teeth do not close simultaneously, but instead imitate a scissoring motion. The teeth themselves are all pointed; thus what makes them so deadly to mice makes broccoli dangerous to them.\\
 
 The principal sense organs of the cat is their \textbf{eyes}. They possess fantastic visual acuity, with binocular vision for the first \(120^\circ\) and \(80^\circ\) of monocular vision for each eye after that. This leaves them with an \(80^\circ\) blindspot. Nonetheless, this is made up for by their capacity to `see in the dark'. Empirical studies have quantified this sensitivity to light as being 6 times more receptive than a human's eye\(^\dagger\). Contrary to popular belief, cats \emph{can} see colour, though they do lack the physical hardware to see red properly.\\
@@ -175,15 +186,19 @@ The width of your cat will eventually become noticeable and at this point she wi
 
 \subsection*{Birth}
 \label{sec:Birth}
+
+\fancyfoot[L,R]{}
+
 The process of birth constitutes a lot of licking. But we'll get to that.\\
+\begin{wrapfigure}{R}{0.4\textwidth}
+    \centering
+    \includegraphics[width=0.4\textwidth]{img/cat-mum.png}
+\end{wrapfigure}
 
 \noindent{}Once the queen has found her place of labour, eventually she will discharge some liquid which marks the onset of \hyperref[sec:Kittens]{kittens}. The birth of each kitten can take anywhere from 30 seconds to 50 minutes. Each kitten will be delivered in a thin transparent sac with a trailing umbilical chord. The mother peels off this sac and licks the kitten dry, beginning with the nose and mouth so that baby kitty may breathe and enabling circulation. Then mother kitty severs the umbilical chord and eats it, biologically this is an important source of calories as labour is ardous, and there are yet many more kittens to be born. Furthermore, the consumation of the placenta triggers the hormones associated with lactation production.\\
 
-The average litter size of a domestic cat is 4. This is also the empirically optimal size as after 4 the birth weights decrease undesirably.\\
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.5\textwidth]{img/cat-hunter.png}
-\end{figure}
+The average litter size of a domestic cat is 4. This is also the empirically optimal size as after 4 the birth weights decrease undesirably.
+
 
 \subsection*{Kittens!}
 \label{sec:Kittens}
@@ -204,12 +219,12 @@ Physiologically, these creatures are engineered to kill - razor sharp claws, can
 
 
 \section*{Diet}
-The \emph{Catus} are obligate carnivores and derive \textbf{all} energy from other animals. An adult female requires 1,100kJ / day whilst a male requires 1,400. When given the opportunity to feed ad lib, cats will eat many small meals a day - up to 16 the ethologists say. Cats have a preference for fresh meat, and interestingly can obtain all of their water requirements from prey. 
+The \emph{Catus} are obligate carnivores and derive \textbf{all} energy from other animals. An adult female requires 1,100kJ / day whilst a male requires 1,400. When given the opportunity to feed ad lib, cats will eat many small meals a day - up to 16 the \gls{ethologist}s say. Cats have a preference for fresh meat, and interestingly can obtain all of their water requirements from prey. 
 
 
 \section*{Facts}
 \begin{itemize}
-    \item indoors they live $\sim$15 years. some live up to 20. the oldest lived to 38.
+    \item indoors they live $\sim$15 years. some live up to 20. the oldest lived to 38$^\dagger$.
     \item they can sense change imminent changes to weather more acutely than humans
     \item some cats don't realise they had kittens and so just walk away from them
         \begin{itemize}
@@ -231,6 +246,28 @@ The \emph{Catus} are obligate carnivores and derive \textbf{all} energy from oth
     \begin{flushright}--- \emph{A Description of a City Shower}, Jonathan Swift\end{flushright}
 \end{flushright}
 
+
+\fancyfoot[L]{
+    \begin{minipage}{0.35\linewidth}
+        \flushleft
+        \includegraphics[width=0.35\textwidth]{img/cat-curious.png}
+    \end{minipage}
+}
+\fancyfoot[R]{
+    \begin{minipage}{0.4\linewidth}
+        \tiny
+        \flushright
+        $\dagger$:
+        \textgreek{
+        ἐὰν οὖν, ὅτε δήποτε πρὸς ἐξόδῳ γίνῃ, πάντα τὰ ἄλλα κατα-\\
+λιπὼν μόνον τὸ ἡγεμονικόν σου καὶ τὸ ἐν σοὶ θεῖον τιμήσῃς καὶ μὴ τὸ\\
+παύσασθαί ποτε 〈τοῦ〉 ζῆν φοβηθῇς, ἀλλὰ τό γε μηδέποτε ἄρξασθαι\\
+κατὰ φύσιν ζῆν, ἔσῃ ἄνθρωπος ἄξιος τοῦ γεννήσαντος κόσμου καὶ\\
+        παύσῃ ξένος ὢν τῆς}
+    \end{minipage}
+}
+
+\newpage
 \section*{Q\&A}
 \begin{multicols}{3}
 \begin{minipage}{8cm}
@@ -238,6 +275,23 @@ The \emph{Catus} are obligate carnivores and derive \textbf{all} energy from oth
     \textbf{A}: Interestingly, they don't always. Feral cats and domestic cats further away from home will often \textbf{not} bury their scats, whilst when at home they will. We suspect this is due to cleanliness and burying being a desirable domestic behaviour.\\
     \textbf{Q}: Do they sharpen their rear claws?
     \textbf{A}: Yes, they do. However as opposed to scratching them sharp, felines chew through the outer sheath of their rear claws.
+
+    \vspace{0.5cm}
+    \hrulefill
+    \fbox{
+    \begin{minipage}{8cm}
+        \section*{Newton Killed the cat.}
+
+        \begin{align*}
+            l &= \int^{\theta_1}_{0} \sqrt{(e^{-\frac{\theta}{10}})^2 + (-\frac{1}{10}e^{-\frac{\theta}{10}})^2}\mathrm{d}\theta\\
+            &= \int^{\theta_1}_{0} \sqrt{(1+\frac{1}{100})e^{-\frac{2\theta}{10}}} \mathrm{d}\theta\\
+            &= \frac{\sqrt{101}}{10} \int^{\theta_1}_0 e^{-\frac{\theta}{10}}\mathrm{d}\theta\\
+            &= \sqrt{101}(1 - e^{-\frac{\theta_1}{10}}).\\
+            &= \sqrt{101} \text{ (as \(\theta_1 \rightarrow \infty\)).}
+        \end{align*}
+    \end{minipage}
+    }
+
 \end{minipage}
 
 \hspace{2.5cm}
@@ -267,17 +321,7 @@ The \emph{Catus} are obligate carnivores and derive \textbf{all} energy from oth
 \end{multicols}
 
 
-\fancyfoot[L]{
-    \begin{minipage}{0.4\linewidth}
-        \flushleft
-        \includegraphics[width=0.4\textwidth]{img/curious-cat.png}
-    \end{minipage}
-}
-
-
 \printnoidxglossary[style=listdotted]
-
-\section*{Newton killed the cat.}
 
 \begin{thebibliography}{8}
     \bibitem{mb} Muriel Beadle, \emph{The Cat: A Complete Authoritative Compendium of Information about Domestic Cats}, 1979
