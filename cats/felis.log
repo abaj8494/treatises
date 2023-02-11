@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.4.14)  11 FEB 2023 19:13
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.4.14)  12 FEB 2023 07:45
  restricted system commands enabled.
 **felis.tex
 (./felis.tex
@@ -1265,6 +1265,48 @@ File: img/crescent.png Graphic file (type png)
 Package luatex.def Info: img/crescent.png  used on input line 107.
 (luatex.def)             Requested size: 125.12099pt x 117.70946pt.
 
+Underfull \hbox (badness 1496) in paragraph at lines 112--113
+[][]\TU/lmr/m/n/10 How-ever, the sta-tus of cats within so-ci-ety has not al-way
+s been so el-
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 112--113
+\TU/lmr/m/n/10 e-vated. In the 12th and 13th cen-turies, cats found their way in
+to the
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 112--113
+\TU/lmr/m/n/10 folds of pa-gan re-li-gions and were de-monised as \TU/lmr/m/it/
+10 evil \TU/lmr/m/n/10 crea-tures. Later,
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 112--113
+\TU/lmr/m/n/10 the reign of Chris-tian-ity and the me-dieval church saw the per-
+se-cu-tion
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 112--113
+\TU/lmr/m/n/10 of cats and their ad-ver-tise-ment as as-so-ci-ated with the devi
+l, necro-
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 112--113
+\TU/lmr/m/n/10 mancers and witches. Dur-ing this pe-riod, cats were tor-tured an
+d
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 112--113
+\TU/lmr/m/n/10 killed, set alight in streets, boiled in wa-ter and thrown from 
+heights
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
@@ -1324,50 +1366,40 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 119--136
  []
 
 [2<./img/crescent.png><./img/picasso-cat.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
-<img/cat-skull.png, id=39, 750.805pt x 605.26125pt>
+<img/cat-skull.png, id=42, 750.805pt x 605.26125pt>
 File: img/cat-skull.png Graphic file (type png)
 <use img/cat-skull.png>
-Package luatex.def Info: img/cat-skull.png  used on input line 158.
+Package luatex.def Info: img/cat-skull.png  used on input line 165.
 (luatex.def)             Requested size: 175.17244pt x 141.21126pt.
 
-Underfull \hbox (badness 2512) in paragraph at lines 164--165
+Underfull \hbox (badness 2512) in paragraph at lines 171--172
 [][]\TU/lmr/m/n/10 Next we have the teeth, of which there are 30. 12 less
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 164--165
+Underfull \hbox (badness 2035) in paragraph at lines 171--172
 \TU/lmr/m/n/10 ber of teeth. This how-ever is a double-edged sword as it is
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 164--165
+Underfull \hbox (badness 2781) in paragraph at lines 171--172
 \TU/lmr/m/n/10 jaw joint is dif-fer-ent to ours - po-si-tioned slightly higher 
 such
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 164--165
+Underfull \hbox (badness 1147) in paragraph at lines 171--172
 \TU/lmr/m/n/10 that their teeth do not close si-mul-ta-ne-ously, but in-stead im
 -i-tate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-
  []
 
 
@@ -1380,53 +1412,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
-[3<./img/cat-skull.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
+[3<./img/cat-skull.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
-<img/cat-mum.png, id=54, 704.6325pt x 409.53pt>
+<img/cat-mum.png, id=56, 704.6325pt x 409.53pt>
 File: img/cat-mum.png Graphic file (type png)
 <use img/cat-mum.png>
-Package luatex.def Info: img/cat-mum.png  used on input line 196.
+Package luatex.def Info: img/cat-mum.png  used on input line 203.
 (luatex.def)             Requested size: 200.19054pt x 116.34857pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--198
+Underfull \hbox (badness 10000) in paragraph at lines 200--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-<img/cat-hunter.png, id=56, 933.4875pt x 352.31625pt>
+<img/cat-hunter.png, id=58, 933.4875pt x 352.31625pt>
 File: img/cat-hunter.png Graphic file (type png)
 <use img/cat-hunter.png>
-Package luatex.def Info: img/cat-hunter.png  used on input line 214.
+Package luatex.def Info: img/cat-hunter.png  used on input line 221.
 (luatex.def)             Requested size: 250.24199pt x 94.44391pt.
 [4<./img/cat-mum.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-<img/cat-curious.png, id=68, 404.51125pt x 553.06625pt>
+<img/cat-curious.png, id=70, 404.51125pt x 553.06625pt>
 File: img/cat-curious.png Graphic file (type png)
 <use img/cat-curious.png>
-Package luatex.def Info: img/cat-curious.png  used on input line 271.
+Package luatex.def Info: img/cat-curious.png  used on input line 278.
 (luatex.def)             Requested size: 61.31142pt x 83.82558pt.
 LaTeX Font Info:    Font shape `TU/Kerkis(0)/m/n' will be
-(Font)              scaled to size 5.01465pt on input line 271.
+(Font)              scaled to size 5.01465pt on input line 278.
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 48.01283pt, for example:
@@ -1438,32 +1480,32 @@ Missing character: There is no 〈 (U+3008) in font Kerkis:mode=node;script=latn
 Missing character: There is no 〉 (U+3009) in font Kerkis:mode=node;script=latn
 ;language=dflt;+tlig;!
 <./img/cat-hunter.png><./img/cat-curious.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 275--277
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
 
  []
 
 
-Overfull \hbox (13.45999pt too wide) in paragraph at lines 278--301
+Overfull \hbox (13.45999pt too wide) in paragraph at lines 285--308
 [] [] 
  []
 
 
-Overfull \hbox (82.46071pt too wide) in paragraph at lines 274--303
+Overfull \hbox (82.46071pt too wide) in paragraph at lines 281--310
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--329
+Underfull \hbox (badness 10000) in paragraph at lines 321--336
 []
  []
 
 
-Overfull \hbox (13.54883pt too wide) in paragraph at lines 312--330
+Overfull \hbox (13.54883pt too wide) in paragraph at lines 319--337
 []  $[]$ 
  []
 
@@ -1471,7 +1513,7 @@ Using TeX to sort glossary entries---this may take a while
 <img/qr.png, id=83, 123.46124pt x 123.46124pt>
 File: img/qr.png Graphic file (type png)
 <use img/qr.png>
-Package luatex.def Info: img/qr.png  used on input line 354.
+Package luatex.def Info: img/qr.png  used on input line 361.
 (luatex.def)             Requested size: 45.04446pt x 45.04507pt.
 [6<./img/qr.png>] (./felis.aux)
 Package rerunfilecheck Info: File `felis.out' has not changed.
@@ -1479,23 +1521,23 @@ Package rerunfilecheck Info: File `felis.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31579 strings out of 477785
+ 31610 strings out of 477785
  125037,1144653 words of node,token memory allocated
  591 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 68 glue_spec,
  9 attribute_list, 3 write nodes
-   avail lists: 1:1,2:1141,3:833,4:76,5:881,6:77,7:12439,8:44,9:762,10:47,11:621
+   avail lists: 1:1,2:1141,3:835,4:76,5:884,6:79,7:12467,8:44,9:770,10:49,11:617
 
- 50943 multiletter control sequences out of 65536+600000
+ 50974 multiletter control sequences out of 65536+600000
  91 fonts using 7217831 bytes
  100i,16n,121p,1134b,798s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf
 ></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7-italic.ot
 f></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmromanslant10-re
 gular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/kerkis/Kerki
-s.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman5-regu
-lar.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-it
-alic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-r
+s.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-ital
+ic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-reg
+ular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman5-r
 egular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7
 -regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroma
 n10-bold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroma
@@ -1515,7 +1557,7 @@ msy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5
 .pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
 m5.pfb>
-Output written on felis.pdf (6 pages, 8706139 bytes).
+Output written on felis.pdf (6 pages, 8707852 bytes).
 
 PDF statistics: 234 PDF objects out of 1000 (max. 8388607)
  153 compressed objects within 2 object streams
