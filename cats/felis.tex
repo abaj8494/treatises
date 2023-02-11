@@ -12,6 +12,7 @@
 \usepackage{caption}
 \usepackage{background}
 \usepackage{wrapfig}
+\usepackage{rotating}
 
 % configurations
 \usetikzlibrary{arrows,positioning,shapes.geometric}
@@ -22,7 +23,7 @@
 
 % title
 \title{\underline{A treatise on Felis Catus, a.k.a \emph{the domestic Cat}}}
-\author{Aayush Bajaj}
+\author{Aayush Baj[aj]}
 
 \backgroundsetup{placement = top, hshift=11cm, vshift=-11cm, scale = 0.4, contents ={\ifnum\value{page}=1 \includegraphics[width=0.5\textwidth]{img/title-cat.png}\else \fi}}
 % document
@@ -73,7 +74,7 @@ Originally, the \emph{Felidae} family emerged in Asia during the Miocene period 
 
 \subsection*{Domestication}
 
-\begin{wrapfigure}{R}{0.20\textwidth}
+\begin{wrapfigure}{r}{0.20\textwidth}
     \centering
     \includegraphics[width=0.20\textwidth]{img/apep-cat.png}
     \caption{The Sun God \emph{Ra} as a cat slaying the demon snake-god \emph{Apep}}
@@ -87,7 +88,6 @@ The Egyptians kept cats not only as pets, but also believed they were divine cre
 
 Then, as if this deification was not enough, cats attain their second social promotion through political affiliation with \emph{TODO} and cats have become imbued within the culture and society of Ancient Egypt.
 
-\newpage
 \subsection*{Spread}
 
 The story continues from Egypt to the rest of the world, where Phoenician Traders begin to smuggle out cats North over the Mediterranean. Due to the strict regulations against this, exportation takes many years, but eventually the cats make it to Greece and Rome and by 500AD the rest of Europe too.\\
@@ -102,7 +102,7 @@ Across history, cats have inched forward as deuteragonists; they spread to North
 
 However, the status of cats within society has not always been so elevated. In the 12th and 13th centuries, cats found their way into the folds of pagan religions and were demonised as \emph{evil} creatures. Later, the reign of Christianity and the medieval church saw the persecution of cats and their advertisement as being associated with the devil, necromancers and witches. During this period, cats were tortured and killed, set alight in streets, boiled in water and thrown from heights.\\
 
-Eventually though, the hysteria of the medieval church subsided and cats resumed regaining popularity. The French helped with their positive public sentiment towards cats, and so did the contemporary art. Here is a piece of a Chaucer along with my \emph{favourite} painting by Picasso.\\
+Eventually though, the hysteria of the medieval church subsided and cats resumed regaining popularity. The French helped with their positive public sentiment towards cats, and so did the contemporary art. Here is a piece of a Chaucer along with my \emph{favourite} painting by Picasso.\\\\
 
 \begin{center}\rule{0.5\textwidth}{0.1mm}\end{center}
 
@@ -179,7 +179,11 @@ The process of birth constitutes a lot of licking. But we'll get to that.\\
 
 \noindent{}Once the queen has found her place of labour, eventually she will discharge some liquid which marks the onset of \hyperref[sec:Kittens]{kittens}. The birth of each kitten can take anywhere from 30 seconds to 50 minutes. Each kitten will be delivered in a thin transparent sac with a trailing umbilical chord. The mother peels off this sac and licks the kitten dry, beginning with the nose and mouth so that baby kitty may breathe and enabling circulation. Then mother kitty severs the umbilical chord and eats it, biologically this is an important source of calories as labour is ardous, and there are yet many more kittens to be born. Furthermore, the consumation of the placenta triggers the hormones associated with lactation production.\\
 
-The average litter size of a domestic cat is 4. This is also the empirically optimal size as after 4 the birth weights decrease undesirably.
+The average litter size of a domestic cat is 4. This is also the empirically optimal size as after 4 the birth weights decrease undesirably.\\
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/cat-hunter.png}
+\end{figure}
 
 \subsection*{Kittens!}
 \label{sec:Kittens}
@@ -228,26 +232,40 @@ The \emph{Catus} are obligate carnivores and derive \textbf{all} energy from oth
 \end{flushright}
 
 \section*{Q\&A}
-\begin{minipage}{9cm}
-    \textbf{Q}: Why do cats rub?
-    \textbf{A}: To show affection and transmit odours.
-\end{minipage}
-\begin{minipage}{9cm}
+\begin{multicols}{3}
+\begin{minipage}{8cm}
     \textbf{Q}: Why do they bury their poops?
-    \textbf{A}: Interestingly, they don't always. Feral cats and domestic cats further away from home will often \textbf{not} bury their scats, whilst when at home they will. We suspect this is due to cleanliness and burying being a desirable domestic behaviour.
-\end{minipage}
-\begin{minipage}{9cm}
-    \textbf{Q}: Why do cats play with their prey?
-    \textbf{A}: The prevailing theory here has to do with \emph{readiness}. Consider readiness to be a meter that fills up over time for each behaviour, i.e. hunting, killing, sleeping, etc. It seems that the `to catch' meter fills up more quickly than the `to kill' meter and often even after killing a prey this meter is still overfull, the cat may `play' with her prey.
-\end{minipage}
-\begin{minipage}{9cm}
+    \textbf{A}: Interestingly, they don't always. Feral cats and domestic cats further away from home will often \textbf{not} bury their scats, whilst when at home they will. We suspect this is due to cleanliness and burying being a desirable domestic behaviour.\\
     \textbf{Q}: Do they sharpen their rear claws?
     \textbf{A}: Yes, they do. However as opposed to scratching them sharp, felines chew through the outer sheath of their rear claws.
 \end{minipage}
-\begin{minipage}{9cm}
-    \textbf{Q}: Why do they purr?
-    \textbf{A}: To display affection and show that they are satisfied. Interestingly though, we do not know how they physiologically make this sound.
+
+\hspace{2.5cm}
+    \begin{minipage}{0.5cm}
+        \begin{turn}{90}
+            \textbf{Q}: Why do cats rub?
+            \textbf{A}: To show affection and transmit odours.
+        \end{turn}
+    \end{minipage}
+
+\hspace{-2.5cm}
+\begin{minipage}{8cm}
+    \textbf{Q}: Why do cats play with their prey?
+    \textbf{A}: The prevailing theory here has to do with \emph{readiness}. Consider readiness to be a meter that fills up over time for each behaviour, i.e. hunting, killing, sleeping, etc. It seems that the `to catch' meter fills up more quickly than the `to kill' meter and often even after killing a prey this meter is still overfull, the cat may `play' with her prey.\\
+    \begin{turn}{90}
+    \begin{minipage}[b]{6.5cm}
+        \flushleft
+        \textbf{Q}: Why do they purr?\\
+        \vspace{3cm}
+        \flushright
+        \textbf{A}: To display affection and show that they are satisfied. Interestingly though, we do not know how they physiologically make this sound.
+    \end{minipage}
+    \end{turn}
 \end{minipage}
+
+
+\end{multicols}
+
 
 \fancyfoot[L]{
     \begin{minipage}{0.4\linewidth}
@@ -272,9 +290,9 @@ The \emph{Catus} are obligate carnivores and derive \textbf{all} energy from oth
 
 \fancyfoot[L]{}
 \fancyfoot[R]{
-    \begin{minipage}{0.4\linewidth}
+    \begin{minipage}{0.3\linewidth}
         \flushright
-        \includegraphics[width=0.4\textwidth]{img/qr.png}
+        \includegraphics[width=0.3\textwidth]{img/qr.png}
     \end{minipage}
 }
 

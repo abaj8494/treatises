@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.4.14)  11 FEB 2023 11:48
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.4.14)  11 FEB 2023 14:24
  restricted system commands enabled.
 **felis.tex
 (./felis.tex
@@ -908,6 +908,14 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \WF@everypar=\toks48
 Package: wrapfig 2003/01/31  v 3.6
 )
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count344
+\rotFPtop=\skip77
+\rotFPbot=\skip78
+\rot@float@box=\box117
+\rot@mess@toks=\toks49
+)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -931,37 +939,37 @@ File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (./pages/glossary.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count344
-\l__pdf_internal_box=\box117
+\l__color_backend_stack_int=\count345
+\l__pdf_internal_box=\box118
 )
 (./felis.aux)
 \openout1 = felis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+0.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -997,7 +1005,7 @@ LaTeX Font Info:    ... okay on input line 29.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 30.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1008,11 +1016,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count345
+\c@section@level=\count346
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
  (./felis.out) (./felis.out)
 \@outlinefile=\write4
 
@@ -1020,17 +1028,17 @@ LaTeX Info: Redefining \nameref on input line 29.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count346
+\scratchcounter=\count347
 \scratchdimen=\dimen298
-\scratchbox=\box118
-\nofMPsegments=\count347
-\nofMParguments=\count348
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count349
+\scratchbox=\box119
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count350
 \MPscratchDim=\dimen299
-\MPnumerator=\count350
-\makeMPintoPDFobject=\count351
-\everyMPtoPDFconversion=\toks50
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks51
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1041,47 +1049,48 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
-Overfull \hbox (24.17526pt too wide) in paragraph at lines 60--61
+Overfull \hbox (24.17526pt too wide) in paragraph at lines 61--62
 [][] 
  []
 
 <img/apep-cat.png, id=7, 283.0575pt x 290.58563pt>
 File: img/apep-cat.png Graphic file (type png)
 <use img/apep-cat.png>
-Package luatex.def Info: img/apep-cat.png  used on input line 78.
+Package luatex.def Info: img/apep-cat.png  used on input line 79.
 (luatex.def)             Requested size: 100.09526pt x 102.75734pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 <img/title-cat.png, id=8, 649.42625pt x 493.845pt>
 File: img/title-cat.png Graphic file (type png)
 <use img/title-cat.png>
-Package luatex.def Info: img/title-cat.png  used on input line 90.
+Package luatex.def Info: img/title-cat.png  used on input line 91.
 (luatex.def)             Requested size: 250.24199pt x 190.29291pt.
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./img/tit
-le-cat.png>]
+le-cat.png><./img/apep-cat.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
@@ -1091,7 +1100,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-<img/crescent.png, id=26, 746.28813pt x 702.12312pt>
+<img/crescent.png, id=27, 746.28813pt x 702.12312pt>
 File: img/crescent.png Graphic file (type png)
 <use img/crescent.png>
 Package luatex.def Info: img/crescent.png  used on input line 98.
@@ -1130,7 +1139,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-<img/picasso-cat.png, id=27, 803.0pt x 631.35875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+<img/picasso-cat.png, id=28, 803.0pt x 631.35875pt>
 File: img/picasso-cat.png Graphic file (type png)
 <use img/picasso-cat.png>
 Package luatex.def Info: img/picasso-cat.png  used on input line 124.
@@ -1150,17 +1164,17 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 110--127
 []$ 
  []
 
-
+[2<./img/crescent.png><./img/picasso-cat.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
-[2<./img/apep-cat.png><./img/crescent.png><./img/picasso-cat.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
-<img/cat-skull.png, id=40, 750.805pt x 605.26125pt>
+<img/cat-skull.png, id=39, 750.805pt x 605.26125pt>
 File: img/cat-skull.png Graphic file (type png)
 <use img/cat-skull.png>
 Package luatex.def Info: img/cat-skull.png  used on input line 149.
@@ -1207,12 +1221,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-
+[3<./img/cat-skull.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
-[3<./img/cat-skull.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
@@ -1235,64 +1249,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
 <img/cat-hunter.png, id=52, 933.4875pt x 352.31625pt>
 File: img/cat-hunter.png Graphic file (type png)
 <use img/cat-hunter.png>
-Package luatex.def Info: img/cat-hunter.png  used on input line 194.
+Package luatex.def Info: img/cat-hunter.png  used on input line 185.
+(luatex.def)             Requested size: 250.24199pt x 94.44391pt.
+[4<./img/cat-hunter.png>]
+File: img/cat-hunter.png Graphic file (type png)
+<use img/cat-hunter.png>
+Package luatex.def Info: img/cat-hunter.png  used on input line 198.
 (luatex.def)             Requested size: 250.24199pt x 94.44391pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-[4]
-Overfull \hbox (13.8856pt too wide) in paragraph at lines 231--251
-$[]$ $[]$
+[5]
+Overfull \hbox (82.46071pt too wide) in paragraph at lines 236--242
+[]$[]$ 
  []
 
 
-Overfull \hbox (13.8856pt too wide) in paragraph at lines 231--251
-[]$ $[]$
+Overfull \hbox (13.54883pt too wide) in paragraph at lines 251--265
+[]  $[]$ 
  []
 
 Using TeX to sort glossary entries---this may take a while
-<img/curious-cat.png, id=63, 404.51125pt x 553.06625pt>
-File: img/curious-cat.png Graphic file (type png)
-<use img/curious-cat.png>
-Package luatex.def Info: img/curious-cat.png  used on input line 260.
-(luatex.def)             Requested size: 80.07498pt x 109.48044pt.
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 60.84026pt, for example:
-(fancyhdr)                \setlength{\footskip}{60.84026pt}.
-
-[5<./img/cat-hunter.png><./img/curious-cat.png>]
-<img/qr.png, id=76, 123.46124pt x 123.46124pt>
+<img/qr.png, id=73, 123.46124pt x 123.46124pt>
 File: img/qr.png Graphic file (type png)
 <use img/qr.png>
-Package luatex.def Info: img/qr.png  used on input line 281.
-(luatex.def)             Requested size: 80.07498pt x 80.07928pt.
-
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 46.13968pt, for example:
-(fancyhdr)                \setlength{\footskip}{46.13968pt}.
-
+Package luatex.def Info: img/qr.png  used on input line 299.
+(luatex.def)             Requested size: 45.04446pt x 45.04507pt.
 [6<./img/qr.png>] (./felis.aux)
 Package rerunfilecheck Info: File `felis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28563 strings out of 477785
- 125029,953878 words of node,token memory allocated
- 581 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 66 glue_spec,
+ 28642 strings out of 477785
+ 125037,953878 words of node,token memory allocated
+ 591 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 68 glue_spec,
  9 attribute_list, 3 write nodes
-   avail lists: 1:1,2:1148,3:811,4:70,5:467,6:75,7:8233,8:42,9:592,10:44,11:490
- 48027 multiletter control sequences out of 65536+600000
+   avail lists: 2:1141,3:832,4:68,5:464,6:65,7:8133,8:44,9:648,10:44,11:457
+ 48096 multiletter control sequences out of 65536+600000
  55 fonts using 4037871 bytes
- 100i,16n,115p,1134b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,16n,115p,1134b,796s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf
 ></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmromanslant10-reg
 ular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7-r
@@ -1308,10 +1307,10 @@ msfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy7.pfb>
-Output written on felis.pdf (6 pages, 7757750 bytes).
+Output written on felis.pdf (6 pages, 7015788 bytes).
 
-PDF statistics: 172 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 131072)
+PDF statistics: 171 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
