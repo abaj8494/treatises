@@ -14,6 +14,7 @@
 \usepackage{wrapfig}
 \usepackage{rotating}
 \usepackage{fontspec}
+\usepackage{amssymb}
 
 \newfontfamily\greekfont[Scale=MatchUppercase,Ligatures=TeX]{Kerkis}
 
@@ -273,22 +274,28 @@ The \emph{Catus} are obligate carnivores and derive \textbf{all} energy from oth
 \begin{minipage}{8cm}
     \textbf{Q}: Why do they bury their poops?
     \textbf{A}: Interestingly, they don't always. Feral cats and domestic cats further away from home will often \textbf{not} bury their scats, whilst when at home they will. We suspect this is due to cleanliness and burying being a desirable domestic behaviour.\\
-    \textbf{Q}: Do they sharpen their rear claws?
-    \textbf{A}: Yes, they do. However as opposed to scratching them sharp, felines chew through the outer sheath of their rear claws.
 
-    \vspace{0.5cm}
     \hrulefill
     \fbox{
     \begin{minipage}{8cm}
-        \section*{Newton Killed the cat.}
+        \tiny
+        \section*{Newton killed the Cat.}
+        Or rather 76.87 \emph{Newtons} killed the cat. Let's see how.\\
 
-        \begin{align*}
-            l &= \int^{\theta_1}_{0} \sqrt{(e^{-\frac{\theta}{10}})^2 + (-\frac{1}{10}e^{-\frac{\theta}{10}})^2}\mathrm{d}\theta\\
-            &= \int^{\theta_1}_{0} \sqrt{(1+\frac{1}{100})e^{-\frac{2\theta}{10}}} \mathrm{d}\theta\\
-            &= \frac{\sqrt{101}}{10} \int^{\theta_1}_0 e^{-\frac{\theta}{10}}\mathrm{d}\theta\\
-            &= \sqrt{101}(1 - e^{-\frac{\theta_1}{10}}).\\
-            &= \sqrt{101} \text{ (as \(\theta_1 \rightarrow \infty\)).}
-        \end{align*}
+        Given that statistically a kitty will not survive a fall from greater than 8 stories, and that a storey is $\sim$28 metres, we can calculate the force to-be-dead kitty will experience upon departure from Earth.
+
+        We begin by realising this is an \emph{impulse} problem and that $F_{\text{net} = \frac{\Delta p}{\Delta t}}$. Here, $\Delta p = m(v_f - v_i)$, and then the question becomes what are $m, v_f$ and $v_i$? Well, m is simply the mass, which we shall give to be 4kg for an average cat. Then $v_i$ (the initial velocity) is obviously 0 - we are not throwing said kitty; but now we hiccup on $v_f$. What is the \emph{final velocity}?\\
+        Since kitty is falling from 28 metres up we can safely assume he reaches terminal velocity. \emph{Not ignoring} the affects of air resistance we use Newtons second law at $a = 0$ to find $ma = mg - kv (1)\Rightarrow m(0) = mg - kv \Rightarrow v = \frac{mg}{k}$ once terminal velocity is reached, i.e. at $t \Rightarrow \infty$. Being proactive in our physics calculations we decree $k = 2.9$ which yields a $v_f$ of $\frac{1962}{145}$. Now with all the variables of $\Delta p$ found we can simpify the numerator to $m(v_f - v_i) = 4(1962/145 - 0) = 54.097$.
+
+        The denominator is where it gets fun. Now we must find the \emph{time} it takes for dead kitty to slap concrete. We take equation (1) and rewrite it in the language of differential calculus: $m \frac{\mathrm{d}v}{\mathrm{d}t} = mg - kv$. From there we separate and integrate this first order differential equation to find $V = Ae^{\frac{-kt}{m}} + \frac{mg}{k} + C, A \in \mathbb{R}$. Then solving for $C$ with the initial condition $V = 0$ we finally get $V = \frac{mg}{k}(1 - e^{\frac{-kt}{m}})$.
+
+        Now we may use this result to find which value of $t$ results in the $v_f$ we found above. Spoiler: its 7.037 seconds. Thus we now have a solved denominator too. $\Delta t = t_{\text{final}} - t_{\text{initial}} = 7.037 - 0 = 7.037$ seconds.
+
+        And finally $F_{\text{net} = \frac{54.097}{7.037} = 7.68 N}$. Now obviously, this value is not believable, and so we shall multiply the answer by 10. Therefore it took $76.87$ Newtons to kill the cat. 
+        \flushright{$\square$}
+
+        
+
     \end{minipage}
     }
 
@@ -315,6 +322,10 @@ The \emph{Catus} are obligate carnivores and derive \textbf{all} energy from oth
         \textbf{A}: To display affection and show that they are satisfied. Interestingly though, we do not know how they physiologically make this sound.
     \end{minipage}
     \end{turn}
+    \begin{minipage}[b]{7cm}
+        \textbf{Q}: Do they sharpen their rear claws?
+        \textbf{A}: Yes, they do. However as opposed to scratching them sharp, felines chew through the outer sheath of their rear claws.
+    \end{minipage}
 \end{minipage}
 
 

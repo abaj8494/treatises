@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.4.14)  11 FEB 2023 16:20
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.4.14)  11 FEB 2023 19:13
  restricted system commands enabled.
 **felis.tex
 (./felis.tex
@@ -952,6 +952,17 @@ eX
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 luaotfload | cache : Lookup cache loaded from /Users/aayushbajaj/Library/texlive
 /2022/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
@@ -1025,32 +1036,32 @@ File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (./pages/glossary.sty) (./felis.aux)
 \openout1 = felis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-8.
+9.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1086,7 +1097,7 @@ LaTeX Font Info:    ... okay on input line 38.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 39.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1099,9 +1110,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count357
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
  (./felis.out) (./felis.out)
 \@outlinefile=\write4
 
@@ -1137,274 +1148,285 @@ Package caption Info: End \AtBeginDocument code.
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
-\symlegacymaths=\mathgroup4
+\symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 38.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 38.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 38.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 38.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 38.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 38.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 38.
-LaTeX Font Info:    Redeclaring math accent \check on input line 38.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 38.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 38.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 38.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 38.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 39.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 39.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 39.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 39.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 39.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 39.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 39.
+LaTeX Font Info:    Redeclaring math accent \check on input line 39.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 39.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 39.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 39.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 39.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 38.
+(Font)              `operators' in the math version `normal' on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 38.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 39.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 38.
+(Font)              `operators' in the math version `bold' on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 38.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 38.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 38.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 38.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 38.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 38.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 38.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 38.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 38.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 38.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 
-Overfull \hbox (24.17526pt too wide) in paragraph at lines 69--70
+Overfull \hbox (24.17526pt too wide) in paragraph at lines 70--71
 [][] 
  []
 
 <img/apep-cat.png, id=7, 283.0575pt x 290.58563pt>
 File: img/apep-cat.png Graphic file (type png)
 <use img/apep-cat.png>
-Package luatex.def Info: img/apep-cat.png  used on input line 87.
+Package luatex.def Info: img/apep-cat.png  used on input line 88.
 (luatex.def)             Requested size: 100.09526pt x 102.75734pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
 <img/title-cat.png, id=8, 649.42625pt x 493.845pt>
 File: img/title-cat.png Graphic file (type png)
 <use img/title-cat.png>
-Package luatex.def Info: img/title-cat.png  used on input line 99.
+Package luatex.def Info: img/title-cat.png  used on input line 100.
 (luatex.def)             Requested size: 250.24199pt x 190.29291pt.
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./img/tit
 le-cat.png><./img/apep-cat.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 <img/crescent.png, id=27, 746.28813pt x 702.12312pt>
 File: img/crescent.png Graphic file (type png)
 <use img/crescent.png>
-Package luatex.def Info: img/crescent.png  used on input line 106.
+Package luatex.def Info: img/crescent.png  used on input line 107.
 (luatex.def)             Requested size: 125.12099pt x 117.70946pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 113--114
+Underfull \hbox (badness 3354) in paragraph at lines 114--115
 []\TU/lmr/m/n/10 Even-tu-ally though, the hys-te-ria of the me-dieval church sub
 -sided and
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 113--114
+Underfull \hbox (badness 3536) in paragraph at lines 114--115
 \TU/lmr/m/n/10 cats re-sumed re-gain-ing pop-u-lar-ity. The French helped with 
 their pos-
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 113--114
+Underfull \hbox (badness 4647) in paragraph at lines 114--115
 \TU/lmr/m/n/10 i-tive pub-lic sen-ti-ment to-wards cats, and so did the con-tem-
 po-rary art.
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 113--114
+Underfull \hbox (badness 2698) in paragraph at lines 114--115
 \TU/lmr/m/n/10 Here is a piece of a Chaucer along with my \TU/lmr/m/it/10 favour
 ite \TU/lmr/m/n/10 paint-ing by Pi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 <img/picasso-cat.png, id=28, 803.0pt x 631.35875pt>
 File: img/picasso-cat.png Graphic file (type png)
 <use img/picasso-cat.png>
-Package luatex.def Info: img/picasso-cat.png  used on input line 132.
+Package luatex.def Info: img/picasso-cat.png  used on input line 133.
 (luatex.def)             Requested size: 125.12099pt x 98.37018pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 133.
+(caption)                particular \caption on input line 134.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 118--135
+Overfull \hbox (20.0pt too wide) in paragraph at lines 119--136
 []$[]$
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 118--135
+Overfull \hbox (5.0pt too wide) in paragraph at lines 119--136
 []$ 
  []
 
 [2<./img/crescent.png><./img/picasso-cat.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
 <img/cat-skull.png, id=39, 750.805pt x 605.26125pt>
 File: img/cat-skull.png Graphic file (type png)
 <use img/cat-skull.png>
-Package luatex.def Info: img/cat-skull.png  used on input line 157.
+Package luatex.def Info: img/cat-skull.png  used on input line 158.
 (luatex.def)             Requested size: 175.17244pt x 141.21126pt.
 
-Underfull \hbox (badness 2512) in paragraph at lines 163--164
+Underfull \hbox (badness 2512) in paragraph at lines 164--165
 [][]\TU/lmr/m/n/10 Next we have the teeth, of which there are 30. 12 less
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 163--164
+Underfull \hbox (badness 2035) in paragraph at lines 164--165
 \TU/lmr/m/n/10 ber of teeth. This how-ever is a double-edged sword as it is
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 163--164
+Underfull \hbox (badness 2781) in paragraph at lines 164--165
 \TU/lmr/m/n/10 jaw joint is dif-fer-ent to ours - po-si-tioned slightly higher 
 such
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 163--164
+Underfull \hbox (badness 1147) in paragraph at lines 164--165
 \TU/lmr/m/n/10 that their teeth do not close si-mul-ta-ne-ously, but in-stead im
 -i-tate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 [3<./img/cat-skull.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 <img/cat-mum.png, id=54, 704.6325pt x 409.53pt>
 File: img/cat-mum.png Graphic file (type png)
 <use img/cat-mum.png>
-Package luatex.def Info: img/cat-mum.png  used on input line 195.
+Package luatex.def Info: img/cat-mum.png  used on input line 196.
 (luatex.def)             Requested size: 200.19054pt x 116.34857pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--197
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 <img/cat-hunter.png, id=56, 933.4875pt x 352.31625pt>
 File: img/cat-hunter.png Graphic file (type png)
 <use img/cat-hunter.png>
-Package luatex.def Info: img/cat-hunter.png  used on input line 213.
+Package luatex.def Info: img/cat-hunter.png  used on input line 214.
 (luatex.def)             Requested size: 250.24199pt x 94.44391pt.
 [4<./img/cat-mum.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
 <img/cat-curious.png, id=68, 404.51125pt x 553.06625pt>
 File: img/cat-curious.png Graphic file (type png)
 <use img/cat-curious.png>
-Package luatex.def Info: img/cat-curious.png  used on input line 270.
+Package luatex.def Info: img/cat-curious.png  used on input line 271.
 (luatex.def)             Requested size: 61.31142pt x 83.82558pt.
 LaTeX Font Info:    Font shape `TU/Kerkis(0)/m/n' will be
-(Font)              scaled to size 5.01465pt on input line 270.
+(Font)              scaled to size 5.01465pt on input line 271.
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 48.01283pt, for example:
@@ -1416,17 +1438,32 @@ Missing character: There is no 〈 (U+3008) in font Kerkis:mode=node;script=latn
 Missing character: There is no 〉 (U+3009) in font Kerkis:mode=node;script=latn
 ;language=dflt;+tlig;!
 <./img/cat-hunter.png><./img/cat-curious.png>]
-Overfull \hbox (13.45999pt too wide) in paragraph at lines 280--294
+Underfull \hbox (badness 10000) in paragraph at lines 275--277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+
+ []
+
+
+Overfull \hbox (13.45999pt too wide) in paragraph at lines 278--301
 [] [] 
  []
 
 
-Overfull \hbox (82.46071pt too wide) in paragraph at lines 273--296
+Overfull \hbox (82.46071pt too wide) in paragraph at lines 274--303
 []$[]$ 
  []
 
 
-Overfull \hbox (13.54883pt too wide) in paragraph at lines 305--319
+Underfull \hbox (badness 10000) in paragraph at lines 314--329
+[]
+ []
+
+
+Overfull \hbox (13.54883pt too wide) in paragraph at lines 312--330
 []  $[]$ 
  []
 
@@ -1434,7 +1471,7 @@ Using TeX to sort glossary entries---this may take a while
 <img/qr.png, id=83, 123.46124pt x 123.46124pt>
 File: img/qr.png Graphic file (type png)
 <use img/qr.png>
-Package luatex.def Info: img/qr.png  used on input line 343.
+Package luatex.def Info: img/qr.png  used on input line 354.
 (luatex.def)             Requested size: 45.04446pt x 45.04507pt.
 [6<./img/qr.png>] (./felis.aux)
 Package rerunfilecheck Info: File `felis.out' has not changed.
@@ -1442,44 +1479,46 @@ Package rerunfilecheck Info: File `felis.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31025 strings out of 477785
+ 31579 strings out of 477785
  125037,1144653 words of node,token memory allocated
- 604 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 10 attribute, 68 glue_spec
-, 10 attribute_list, 3 write nodes
-   avail lists: 2:1139,3:832,4:72,5:518,6:65,7:8297,8:44,9:965,10:47,11:467
- 50421 multiletter control sequences out of 65536+600000
- 74 fonts using 6097087 bytes
- 100i,18n,121p,1134b,798s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf
-></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmromanslant10-reg
-ular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/kerkis/Kerkis
-.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman5-regul
-ar.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-ita
-lic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-re
-gular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7-
-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman
-10-bold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman
-10-italic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmrom
-an10-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lm
-roman12-bold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lm
-roman12-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm
-/lmroman12-italic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/
-lm/lmroman17-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
-pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on felis.pdf (6 pages, 8700560 bytes).
+ 591 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 68 glue_spec,
+ 9 attribute_list, 3 write nodes
+   avail lists: 1:1,2:1141,3:833,4:76,5:881,6:77,7:12439,8:44,9:762,10:47,11:621
 
-PDF statistics: 231 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
+ 50943 multiletter control sequences out of 65536+600000
+ 91 fonts using 7217831 bytes
+ 100i,16n,121p,1134b,798s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf
+></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7-italic.ot
+f></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmromanslant10-re
+gular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/kerkis/Kerki
+s.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman5-regu
+lar.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-it
+alic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-r
+egular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7
+-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroma
+n10-bold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroma
+n10-italic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmro
+man10-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/l
+mroman12-bold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/l
+mroman12-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/l
+m/lmroman12-italic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public
+/lm/lmroman17-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
+m5.pfb>
+Output written on felis.pdf (6 pages, 8706139 bytes).
+
+PDF statistics: 234 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  36 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
